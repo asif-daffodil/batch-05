@@ -1,0 +1,64 @@
+.headin1 {
+    color: hotpink;
+}
+
+.nepal {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 0, 255, 1);
+    font-size: 48px;
+    font-weight: bolder;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-color: limegreen;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 4px;
+    font-style: italic;
+    text-shadow: -3px 3px 3px rgb(46, 38, 187);
+    -webkit-text-stroke: 1px #fff;
+    text-underline-offset: 6px;
+    font-family: arial;
+    /* 
+    border: 2px solid black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-top: 2px solid black;
+    border-top-width: 2px;
+    border-top-style: solid ;
+    border-top-color: black;
+    border-right: 8px dashed blue;
+    border-bottom: 20px double red;
+    border-left: 10px dotted lime;
+    */
+    border: 2px solid black;
+    width: max-content;
+    /* 
+    padding: 20px; 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding: 20px 30px 40px 50px;
+    padding: 20px 30px 40px;
+    padding: 20px 30px;
+    */
+    padding: 20px;
+    /*
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin: 20px 30px 40px 50px;
+    margin: 20px 30px 40px;
+    margin: 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    */
+    margin: -150px auto 50px;
+    /* opacity: 0.5; */
+}

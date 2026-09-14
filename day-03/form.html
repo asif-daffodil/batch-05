@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="./table.html">
+        <button>Table</button>
+    </a>
+    <br><br>
+    <form action="">
+        <input type="hidden" name="goponCode" value="123321">
+        <label for="yname">Your Name : </label>
+        <input type="text" placeholder="Your name" id="yname" required minlength="2" maxlength="20">
+        <br><br>
+        <label for="email">Your Email : </label>
+        <input type="email" placeholder="Email Address" id="email">
+        <br><br>
+        <label for="url">Your Website : </label>
+        <input type="url" placeholder="Web Address" id="url">
+        <br><br>
+        <label for="phone">Mobile Number : </label>
+        <input type="number" placeholder="Phone Number" id="phone">
+        <br><br>
+        <label for="dob">DOB : </label>
+        <input type="datetime-local" id="dob">
+        <br><br>
+        <label for="range">Voice Range : </label>
+        <input type="range" id="range">
+        <br><br>
+        <label for="color">Hair Color : </label>
+        <input type="color" id="color">
+        <br><br>
+        <label for="file">Profile picture : </label>
+        <input type="file" id="file" accept="image/*" >
+        <br><br>
+        <label for="pass">Password : </label>
+        <input type="password" placeholder="Your Password" id="pass">
+        <br><br>
+        <label for="">Gender : </label>
+        <label for="male">
+            <input type="radio" name="gender" value="Male" id="male">Male
+        </label>
+        <label for="female">
+            <input type="radio" name="gender" value="Female" id="female">Female
+        </label>
+        <br><br>
+        <label for="">Skills : </label>
+        <label for="html">
+            <input type="checkbox" id="html" value="HTML" name="skill" >HTML
+        </label>
+        <label for="css">
+            <input type="checkbox" id="css" value="CSS" name="skill" >CSS
+        </label>
+        <label for="js">
+            <input type="checkbox" id="js" value="JavaScript" name="skill" >JS
+        </label>
+        <br><br>
+        <label for="ctr">Select Country : </label>
+        <select name="" id="ctr">
+            <option value="">--Select Country--</option>
+            <option value="America">America</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Others">Others</option>
+        </select>
+        <br><br>
+        <label for="cmt">Your Comments : </label><br>
+        <textarea name="" id="cmt" placeholder="Your Comments" cols="30" rows="6" ></textarea>
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        <input type="image" src="./btn.png" width="100" >
+    </form>
+
+    <a href="mailto:"></a>
+</body>
+</html>

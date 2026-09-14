@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px;
+    display: grid;
+    gap: 16px;
+}
+
+.container>div {
+    border: 1px solid #000;
+    padding: 16px;
+    border-radius: 6px;
+    box-shadow: 6px 6px 6px #000;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .container {
+        padding: 24px;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+
+    .container>div {
+        padding: 24px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .container {
+        padding: 32px;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 32px;
+    }
+
+    .container>div {
+        padding: 32px;
+    }
+}
+
+.trump {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    margin: 30px auto;
+    background: url("../images/trump.jpg") no-repeat center /cover;
+    position: relative;
+}
+.trump:hover {
+     background: url("../images/trump.png") no-repeat center /cover;
+}
+
+.trump::before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: url("../images/juta.webp") no-repeat center /cover;
+    position: absolute;
+    /*
+    animation-name: juta;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    */
+    animation: juta 4s infinite linear;
+}
+
+.trump:hover::before {
+    background: url("../images/flower.png") no-repeat center /cover
+}
+
+@keyframes juta {
+    0% {
+        top: -100px;
+        left: -100px;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        top: -100px;
+        left: 300px;
+        transform: rotate(-180deg);
+    }
+
+    50% {
+        top: 300px;
+        left: 300px;
+        transform: rotate(-360deg);
+    }
+    75% {
+       top: 300px;
+       left: -100px; 
+       transform: rotate(-540deg);
+    }
+    100% {
+        top: -100px;
+        left: -100px;
+        transform: rotate(-720deg);
+    }
+}
