@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 
 export default function Header() {
    const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -151,12 +151,12 @@ export default function Header() {
             </div>
 
             <div className="flex items-center gap-4 lg:ml-4">
-               <a
-                  href="#"
+               <Link
+                  to="/sign-up"
                   className="py-2 px-3.5 text-sm rounded-md font-semibold cursor-pointer text-white border border-blue-600 bg-blue-600 hover:bg-blue-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                >
                   Sign up
-               </a>
+               </Link>
 
                <button
                   type="button"

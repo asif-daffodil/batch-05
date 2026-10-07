@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import Hero from "../componnets/home/Hero";
 import ProductsList from "../componnets/home/ProductsList";
+import Counter from "../componnets/Counter";
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             </Helmet>
             <Hero />
             <ProductsList />
+            <Counter />
         </div>
     );
 };

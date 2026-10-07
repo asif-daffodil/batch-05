@@ -6,6 +6,7 @@ import Shop from "./pages/Shop";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import AdminLayout from "./layouts/AdminLayout";
+import Signup from "./pages/Signup";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
         {
             path: "/blog",
             element: <Blog />
+        },
+        {
+            path: "/sign-up",
+            element: <Signup />
         }
     ]
   },
