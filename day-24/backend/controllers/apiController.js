@@ -65,8 +65,13 @@ const logout = (req, res) => {
     })
 }
 
+const studentData = (req, res) => {
+    res.send("Student Data")
+}
+
 module.exports = {
     login,
     userData,
-    logout
+    logout,
+    studentData
 }
