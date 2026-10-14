@@ -1,0 +1,46 @@
+{
+  "students": [
+    {
+      "name": "Nayem",
+      "gender": "male",
+      "city": "Dhaka",
+      "id": "W9H-06YRUAs"
+    },
+    {
+      "name": "Shahed",
+      "gender": "male",
+      "city": "Dhaka",
+      "id": "81HDNXnTOyE"
+    },
+    {
+      "name": "Arman",
+      "gender": "male",
+      "city": "Dhaka",
+      "id": "LaFHcVzZo0I"
+    },
+    {
+      "name": "Ashraful",
+      "gender": "male",
+      "city": "Dhaka",
+      "id": "2s5URfphIrY"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "HTML",
+      "averageMark": 90,
+      "id": "TnDgHs9qdK0"
+    },
+    {
+      "name": "CSS",
+      "averageMark": 95,
+      "id": "3VYEWazv0vg"
+    },
+    {
+      "name": "JS",
+      "averageMark": 55,
+      "id": "SnSyRut8e7E"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

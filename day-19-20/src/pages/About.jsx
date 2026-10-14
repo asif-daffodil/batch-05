@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet";
 import Ceo from "../componnets/about/ceo/Ceo";
+import Students from "../componnets/Students";
 
 const About = () => {
     return (
@@ -8,6 +9,7 @@ const About = () => {
                 <title>About</title>
             </Helmet>
             <Ceo />
+            <Students />
         </div>
     );
 };
